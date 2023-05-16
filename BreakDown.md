@@ -39,3 +39,10 @@ Tests elements :
 - Build random input files for testing. 
     
 
+
+    Classes : 
+    - People equivalent to a cell. it should be able to live die and born and it knows her adresse. Perhaps should know her neighbours. 
+    - Population contains a certain number of people it can be extended or reduced or initialized
+    - game of life it can start it can stop it can pause and initialize rules
+    - grid it contains the population it can be supposed infinit but we adapt it to just contain the population, each cell of the grid contains only one people. 
+
