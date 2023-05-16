@@ -2,7 +2,8 @@
 # Please compile using command bellow :
 
 ```bash
-    g++ -std=c++17 GameOfLife.cpp main.cpp -o gameoflife
+    g++ -std=c++17 -o gameoflife main.cpp ArgsParser.cpp Game.cpp Grid.cpp inputParser.cpp rules.cpp
+
 ```
 # To launch the game of life you can use options bellow : 
 
@@ -18,6 +19,6 @@
  Example of command line could be : 
  
 ```bash
-    gameoflife.exe --input input_Sample.txt --iterations 3 --all --gen
+    gameoflife.exe --input input_Sample --iterations 3 --all --gen
 ```
  You can modify the script "modifyMeToRunGame.bat" if you are on windows.  
