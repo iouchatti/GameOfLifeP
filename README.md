@@ -21,4 +21,5 @@
 ```bash
     gameoflife.exe --input input_Sample --iterations 3 --all --gen
 ```
- You can modify the script "modifyMeToRunGame.bat" if you are on windows.  
+ You can modify the script "modifyMeToRunGame.bat" if you are on windows.
+ 
